@@ -110,6 +110,9 @@ matt.forward(50)
 #   As always, test by running the module.
 #
 ########################################################################
+wowturtle = rg.SimpleTurtle()
+wowturtle.forward(10)
+wowturtle.backward(50)
 
 ########################################################################
 #

@@ -49,8 +49,9 @@ import rosegraphics as rg
 # Set up a   TurtleWindow   object for animation.  The definition of a
 #     TurtleWindow is in the   rg  (shorthand for rosegraphics) module.
 # ----------------------------------------------------------------------
-window = rg.TurtleWindow()
+window = rg.TurtleWindow() #DONT FORGET PARENTHESIS ON EXAM 1
 window.delay(20)  # Bigger numbers mean slower animation.
+#who.what(with what)
 
 # ----------------------------------------------------------------------
 # Makes (constructs) a   SimpleTurtle   object.

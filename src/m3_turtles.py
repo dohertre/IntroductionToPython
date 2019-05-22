@@ -64,7 +64,7 @@ dave = rg.SimpleTurtle()
 dave.forward(100)
 dave.left(90)
 dave.forward(200)
-
+dave.backward(40)
 # ----------------------------------------------------------------------
 # Construct a new turtle and ask it to do things.
 # ----------------------------------------------------------------------
@@ -78,7 +78,7 @@ matt.forward(50)
 
 ########################################################################
 #
-# TODO: 3.
+# DONE: 3.
 #   Add a few more line of your own code above to make one of the
 #   existing Turtles move some more and/or have different
 #   characteristics.

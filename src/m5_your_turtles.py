@@ -40,7 +40,7 @@ olivegreenturtle.speed = 15
 
 size = 10
 
-for m in range (15)
+for m in range(15)
     maroonturtle.draw_square(size)
 
     maroonturtle.pen_up()

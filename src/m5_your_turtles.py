@@ -32,24 +32,46 @@ import rosegraphics as rg
 
 window = rg.TurtleWindow()
 
-maroonturtle = rg.SimpleTurtle('bird')
+maroonturtle = rg.SimpleTurtle('turtle')
 maroonturtle.pen = rg.Pen('maroon', 5)
-maroonturtle.speed = 25
+maroonturtle.speed = 50
 
 olivegreenturtle = rg.SimpleTurtle('turtle')
 olivegreenturtle.pen = rg.Pen('pale green', 3)
-olivegreenturtle.speed = 15
+olivegreenturtle.speed = 30
 
-size = 10
+size = 60
 
-for m in range(15):
+for m in range(18):
     maroonturtle.draw_square(size)
 
     maroonturtle.pen_up()
     maroonturtle.left(20)
     maroonturtle.pen_down()
 
+for o in range(18):
+    olivegreenturtle.forward(70)
 
+    olivegreenturtle.pen_up()
+    olivegreenturtle.left(10)
+    olivegreenturtle.pen_down()
+
+    olivegreenturtle.forward(10)
+
+    olivegreenturtle.pen_up()
+    olivegreenturtle.left(80)
+    olivegreenturtle.pen_down()
+
+    olivegreenturtle.forward(10)
+
+    olivegreenturtle.pen_up()
+    olivegreenturtle.left(10)
+    olivegreenturtle.pen_down()
+
+    olivegreenturtle.forward(70)
+
+
+window.close_on_mouse_click()
 
 
 

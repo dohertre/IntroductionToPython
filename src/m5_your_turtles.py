@@ -42,6 +42,28 @@ olivegreenturtle.speed = 30
 
 size = 60
 
+for o in range(19):
+    olivegreenturtle.forward(20)
+
+    olivegreenturtle.pen_up()
+    olivegreenturtle.left(90)
+    olivegreenturtle.pen_down()
+
+    olivegreenturtle.forward(20)
+
+    olivegreenturtle.pen_up()
+    olivegreenturtle.left(90)
+    olivegreenturtle.pen_down()
+
+    olivegreenturtle.forward(20)
+
+    olivegreenturtle.pen_up()
+    olivegreenturtle.left(90)
+    olivegreenturtle.pen_down()
+
+    olivegreenturtle.forward(10*o)
+
+
 for m in range(18):
     maroonturtle.draw_square(size)
 
@@ -49,26 +71,6 @@ for m in range(18):
     maroonturtle.left(20)
     maroonturtle.pen_down()
 
-for o in range(18):
-    olivegreenturtle.forward(70)
-
-    olivegreenturtle.pen_up()
-    olivegreenturtle.left(10)
-    olivegreenturtle.pen_down()
-
-    olivegreenturtle.forward(10)
-
-    olivegreenturtle.pen_up()
-    olivegreenturtle.left(80)
-    olivegreenturtle.pen_down()
-
-    olivegreenturtle.forward(10)
-
-    olivegreenturtle.pen_up()
-    olivegreenturtle.left(10)
-    olivegreenturtle.pen_down()
-
-    olivegreenturtle.forward(70)
 
 
 window.close_on_mouse_click()

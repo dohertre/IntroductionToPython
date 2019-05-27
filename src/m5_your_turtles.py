@@ -33,39 +33,62 @@ import rosegraphics as rg
 window = rg.TurtleWindow()
 
 maroonturtle = rg.SimpleTurtle('turtle')
-maroonturtle.pen = rg.Pen('maroon', 5)
+maroonturtle.pen = rg.Pen('maroon', 3)
 maroonturtle.speed = 50
 
-olivegreenturtle = rg.SimpleTurtle('turtle')
-olivegreenturtle.pen = rg.Pen('pale green', 3)
-olivegreenturtle.speed = 30
+plumturtle = rg.SimpleTurtle('turtle')
+plumturtle.pen = rg.Pen('plum', 3)
+plumturtle.speed = 50
 
-size = 60
+slategreyturtle = rg.SimpleTurtle('turtle')
+slategreyturtle.pen = rg.Pen('slate grey', 3)
+slategreyturtle.speed = 150
 
-for o in range(19):
+midnightblueturtle = rg.SimpleTurtle('turtle')
+midnightblueturtle.pen = rg.Pen('midnight blue', 6)
+midnightblueturtle.speed = 50
+
+size1 = 60
+size2 = 120
+
+for s in range(50):
+    slategreyturtle.forward(20)
+
+    slategreyturtle.pen_up()
+    slategreyturtle.left(90)
+    slategrey.pen_down()
+
     olivegreenturtle.forward(20)
 
-    olivegreenturtle.pen_up()
-    olivegreenturtle.left(90)
-    olivegreenturtle.pen_down()
+    slategreyturtle.pen_up()
+    slategreyturtle.left(90)
+    slategreyturtle.pen_down()
 
-    olivegreenturtle.forward(20)
+    slategreyturtle.forward(20)
 
-    olivegreenturtle.pen_up()
-    olivegreenturtle.left(90)
-    olivegreenturtle.pen_down()
+    slategreyturtle.pen_up()
+    slategreyturtle.left(90)
+    slategreyturtle.pen_down()
 
-    olivegreenturtle.forward(20)
+    slategreyturtle.forward(15*o)
 
-    olivegreenturtle.pen_up()
-    olivegreenturtle.left(90)
-    olivegreenturtle.pen_down()
 
-    olivegreenturtle.forward(10*o)
+for b in range(18):
+    midnightblueturtle.forward(50)
 
+    midnightblueturtle.pen_up()
+    midnightblueturtle.left(120)
+    midnightblueturtle.pen_down()
+
+for p in range(18):
+    plumturtle.draw_square(size2)
+
+    plumturtle.pen_up()
+    plumturtle.left(20)
+    plumturtle.pen_down()
 
 for m in range(18):
-    maroonturtle.draw_square(size)
+    maroonturtle.draw_square(size1)
 
     maroonturtle.pen_up()
     maroonturtle.left(20)

@@ -33,11 +33,11 @@ import rosegraphics as rg
 window = rg.TurtleWindow()
 
 maroonturtle = rg.SimpleTurtle('turtle')
-maroonturtle.pen = rg.Pen('maroon', 3)
+maroonturtle.pen = rg.Pen('maroon', 6)
 maroonturtle.speed = 50
 
 plumturtle = rg.SimpleTurtle('turtle')
-plumturtle.pen = rg.Pen('plum', 3)
+plumturtle.pen = rg.Pen('plum', 5)
 plumturtle.speed = 50
 
 slategreyturtle = rg.SimpleTurtle('turtle')
@@ -45,7 +45,7 @@ slategreyturtle.pen = rg.Pen('slate grey', 3)
 slategreyturtle.speed = 150
 
 midnightblueturtle = rg.SimpleTurtle('turtle')
-midnightblueturtle.pen = rg.Pen('midnight blue', 6)
+midnightblueturtle.pen = rg.Pen('midnight blue', 7)
 midnightblueturtle.speed = 50
 
 size1 = 60
@@ -56,9 +56,9 @@ for s in range(50):
 
     slategreyturtle.pen_up()
     slategreyturtle.left(90)
-    slategrey.pen_down()
+    slategreyturtle.pen_down()
 
-    olivegreenturtle.forward(20)
+    slategreyturtle.forward(20)
 
     slategreyturtle.pen_up()
     slategreyturtle.left(90)
@@ -70,10 +70,10 @@ for s in range(50):
     slategreyturtle.left(90)
     slategreyturtle.pen_down()
 
-    slategreyturtle.forward(15*o)
+    slategreyturtle.forward(15*s)
 
 
-for b in range(18):
+for b in range(50):
     midnightblueturtle.forward(50)
 
     midnightblueturtle.pen_up()

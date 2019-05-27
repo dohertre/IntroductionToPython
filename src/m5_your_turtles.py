@@ -49,7 +49,7 @@ for m in range(15):
     maroonturtle.left(20)
     maroonturtle.pen_down()
 
-window.close_on_mouse_click()
+
 
 
 

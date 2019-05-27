@@ -30,6 +30,8 @@ Authors: David Mutchler, Dave Fisher, Valerie Galluzzi, Amanda Stouder,
 ########################################################################
 import rosegraphics as rg
 
+window = rg.TurtleWindow()
+
 maroonturtle = rg.SimpleTurtle('bird')
 maroonturtle.pen = rg.Pen('maroon', 5)
 maroonturtle.speed = 25
